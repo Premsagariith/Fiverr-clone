@@ -1,0 +1,110 @@
+.dashboard-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fc;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* HERO */
+.hero-banner {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: white;
+}
+
+.hero-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-banner p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* STATS */
+.stats-section {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 180px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #777;
+  margin: 10px 0 5px;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2a2a72;
+}
+
+/* QUICK ACTIONS */
+.quick-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 50px 20px;
+}
+
+.action-card {
+  background: white;
+  padding: 30px 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.action-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.action-card span {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.action-card h3 {
+  color: #2a2a72;
+  margin-bottom: 10px;
+}
+
+.action-card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* FOOTER */
+.dashboard-footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #888;
+}

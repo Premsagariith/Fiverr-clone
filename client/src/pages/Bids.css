@@ -1,0 +1,35 @@
+.bids-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.bid-card {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.bid-card h3 {
+  margin: 0 0 10px;
+}
+
+.bid-card p {
+  margin: 6px 0;
+}
+
+.bid-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.bid-card button:hover {
+  background-color: #218838;
+}
