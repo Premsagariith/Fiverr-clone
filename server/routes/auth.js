@@ -5,7 +5,7 @@ const bcrypt = require('bcryptjs');
 const User = require('../models/User');
 const authMiddleware = require('../middleware/auth');
 
-// POST /api/auth/register
+
 router.post('/register', async (req, res) => {
   try {
     const { name, email, password, role } = req.body;
@@ -15,7 +15,7 @@ router.post('/register', async (req, res) => {
     if (existingUser)
       return res.status(400).json({ message: 'User already exists' });
 
-    // Hash password
+    
     const hashedPassword = await bcrypt.hash(password, 10);
 
     // Create user
